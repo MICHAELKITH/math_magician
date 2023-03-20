@@ -45,5 +45,18 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MICHAELKITH/math_magician.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MICHAELKITH/math_magician/issues"
+  },
+  "homepage": "https://github.com/MICHAELKITH/math_magician#readme"
 }
