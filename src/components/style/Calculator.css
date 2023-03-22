@@ -1,20 +1,20 @@
-#calculator-body {
+.calculator-main{
   width: fit-content;
   background-color: #858693;
   margin: 2rem auto;
 }
 
-#calculator-buttons {
+.calculator-buttons {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 150px));
 }
 
-#zero {
+.initial {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-#calculator-screen {
+.calculator-screen {
   color: #e0e0e0;
   padding: 0.5rem;
   font-size: 1.5rem;
@@ -28,6 +28,6 @@ button {
   border: 1px solid #d3d2d3;
 }
 
-.orange-button {
+.end-button {
   background-color: #f5913f;
 }

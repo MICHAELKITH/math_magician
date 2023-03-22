@@ -9,11 +9,11 @@ const Calculator = () => {
     setResult((obj) => calculate(obj, e.target.innerText));
   };
   return (
-    <div id="calculator-body">
-      <div id="calculator-screen">
+    <div className="calculator-main">
+      <div className="calculator-screen">
         <BottomValue result={result.next || result.total || '0'} />
       </div>
-      <div id="calculator-buttons">
+      <div className="calculator-buttons">
         <button onClick={handleClick} type="button">
           AC
         </button>
@@ -23,7 +23,7 @@ const Calculator = () => {
         <button onClick={handleClick} type="button">
           %
         </button>
-        <button onClick={handleClick} type="button" className="orange-button">
+        <button onClick={handleClick} type="button" className="end-button">
           ÷
         </button>
         <button onClick={handleClick} type="button">
@@ -35,7 +35,7 @@ const Calculator = () => {
         <button onClick={handleClick} type="button">
           9
         </button>
-        <button onClick={handleClick} type="button" className="orange-button">
+        <button onClick={handleClick} type="button" className="end-button">
           x
         </button>
         <button onClick={handleClick} type="button">
@@ -47,7 +47,7 @@ const Calculator = () => {
         <button onClick={handleClick} type="button">
           6
         </button>
-        <button onClick={handleClick} type="button" className="orange-button">
+        <button onClick={handleClick} type="button" className="end-button">
           -
         </button>
         <button onClick={handleClick} type="button">
@@ -59,16 +59,16 @@ const Calculator = () => {
         <button onClick={handleClick} type="button">
           3
         </button>
-        <button onClick={handleClick} type="button" className="orange-button">
+        <button onClick={handleClick} type="button" className="end-button">
           +
         </button>
-        <button onClick={handleClick} type="button" id="zero">
+        <button onClick={handleClick} type="button" className="initial">
           0
         </button>
         <button onClick={handleClick} type="button">
           .
         </button>
-        <button onClick={handleClick} type="button" className="orange-button">
+        <button onClick={handleClick} type="button" className="end-button">
           =
         </button>
       </div>
