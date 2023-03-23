@@ -30,9 +30,9 @@
   animation-delay: -0.15s;
 }
 
-.ring div:nth-child(1):after,
-.ring div:nth-child(2):after,
-.ring div:nth-child(3):after {
+.ring div:nth-child(1)::after,
+.ring div:nth-child(2)::after,
+.ring div:nth-child(3)::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -47,7 +47,7 @@
   0% {
     transform: rotate(0deg);
   }
-  
+
   100% {
     transform: rotate(360deg);
   }
