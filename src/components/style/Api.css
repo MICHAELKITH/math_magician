@@ -1,0 +1,13 @@
+.error {
+  padding: 2rem 0;
+  font-size: 3rem;
+  text-align: center;
+  color: red;
+}
+
+.quotes-data {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
