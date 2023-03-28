@@ -10,7 +10,7 @@
   grid-template-columns: repeat(4, minmax(0, auto));
 }
 
-.initial{
+.initial {
   grid-column-start: 1;
   grid-column-end: 3;
 }
