@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/loader.css';
+import '../styles/loader.css';
 
 const Loader = () => (
   <div className="ring">

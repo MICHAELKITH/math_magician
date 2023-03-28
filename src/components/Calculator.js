@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './style/Calculator.css';
-import BValue from './BValue';
+import '../styles/Calculator.css';
+import Value from './Value';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -11,7 +11,7 @@ const Calculator = () => {
   return (
     <div className="calculator-main">
       <div className="calculator-screen">
-        <BValue result={result.next || result.total || '0'} />
+        <Value result={result.next || result.total || '0'} />
       </div>
       <div className="calculator-buttons">
         <button onClick={handleClick} type="button">
