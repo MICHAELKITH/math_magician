@@ -47,11 +47,11 @@ header nav a {
   text-decoration: none;
   color: #dce1e9;
   font-size: 1.5rem;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 header nav a:hover {
-  color: #FF00FE;
+  color: #ff00fe;
 }
 
 header nav a::before {
@@ -60,8 +60,8 @@ header nav a::before {
   inset: 0;
   width: 0;
   overflow: hidden;
-  transition: .5s;
-  color: #FF00FE;
+  transition: 0.5s;
+  color: #ff00fe;
 }
 
 header nav a:hover::before {
