@@ -1,8 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import apiKey from './apiKey';
-import Loader from './loader';
-import './style/Api.css';
+import apiKey from '../components/apiKey';
+import Loader from '../components/loader';
+import '../styles/Api.css';
 
 const Quotes = () => {
   const [quoteData, setQuoteData] = useState({
@@ -28,7 +28,7 @@ const Quotes = () => {
   }, []);
 
   if (quoteData.hasError) {
-    return <p className="error">No quotes found!</p>;
+    return <p className="error">Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - William Paul Thurston</p>;
   }
 
   if (quoteData.isLoading) {

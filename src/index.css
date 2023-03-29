@@ -1,4 +1,12 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+/* Body */
 body {
+  background-color: #0d9378;
+  color: #dce1e9;
   margin: 0;
   font-family:
     -apple-system,
@@ -16,6 +24,80 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Code */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav a {
+  position: relative;
+  text-decoration: none;
+  color: #dce1e9;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+header nav a:hover {
+  color: #ff00fe;
+}
+
+header nav a::before {
+  content: attr(data-item);
+  position: absolute;
+  inset: 0;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  color: #ff00fe;
+}
+
+header nav a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Home page */
+.home {
+  padding: 3rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+}
+
+/* Calculator page */
+.calculator-page h2 {
+  text-align: center;
+}
+
+/* Error page */
+.error-page {
+  padding: 3rem;
+  text-align: center;
+}
+
+.error-page h2 {
+  font-size: 3rem;
 }

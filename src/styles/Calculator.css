@@ -1,12 +1,13 @@
 .calculator-main {
-  width: fit-content;
+  width: 400px;
   background-color: #858693;
   margin: 2rem auto;
+  border-radius: 15px;
 }
 
 .calculator-buttons {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 150px));
+  grid-template-columns: repeat(4, minmax(0, auto));
 }
 
 .initial {
@@ -23,9 +24,14 @@
 
 button {
   background-color: #e0e0e0;
-  font-size: 1.5rem;
-  padding: 1rem;
-  border: 1px solid #d3d2d3;
+  font-size: 2.5rem;
+  padding: 1.1rem;
+  border: 1px solid #d4afb9;
+}
+
+button:hover {
+  background-color: #101112;
+  color: #dce1e9;
 }
 
 .end-button {
