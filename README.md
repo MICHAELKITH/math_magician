@@ -54,8 +54,8 @@ This project was built using these technologies.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-> In Progress...
-<!-- - [Live Link]() -->
+> 
+<!-- - [Live Link](https://math-magician-0nfj.onrender.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
